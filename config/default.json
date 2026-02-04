@@ -1,0 +1,28 @@
+{
+  "logChannelId": "",
+  "ownerId": "",
+  "staffRoleId": "",
+  "whitelist": {
+    "users": [],
+    "roles": [],
+    "channels": []
+  },
+  "thresholds": {
+    "windowMs": 1000,
+    "joinFloodCount": 5,
+    "spamMsgCount": 5,
+    "inviteCount": 2,
+    "attachmentCount": 2,
+    "renameCount": 2,
+    "channelCreateCount": 2,
+    "channelDeleteCount": 2,
+    "channelAbuseComboCount": 2
+  },
+  "actions": {
+    "normalInvite": "timeout",
+    "normalInviteTimeoutMinutes": 1
+  },
+  "lockdown": {
+    "durationSeconds": 60
+  }
+}
